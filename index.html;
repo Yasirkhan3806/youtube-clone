@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your HTML Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <section class="top">
+      <!--logo and menu sign-->
+      <div class="option-menu">
+      <a href=""><img  class="menu" src="WhatsApp_Image_2023-12-25_at_11.19.21_PM-removebg-preview.png" alt="menu"> </input></a>
+
+      </div>
+      <div class="youtube-logo">
+        <img class="logo" src="youTube-favicon.png" alt="youtube logo">
+      </div>
+<!--navigation bar-->
+      <div class="youtube-name">
+        <h2 class="name">YouTube</h2>
+      </div>
+      <div class="search-bar">
+<input class="search" id="searchinput" type="text"  placeholder="Search">
+      </div>
+
+      <div class="microphone">
+        <img class="microphone-picture" src="images-removebg-preview.png" alt="microphone">
+      </div>
+<a href="">
+      <div class="record-video">
+        <img class="record-icon" src="WhatsApp_Image_2023-12-26_at_8.49.20_PM-removebg-preview.png" alt="record video">
+      </div>
+</a>
+<a href="">
+    <div class="notification-bell">
+      <img class="bell" src="Screenshot__41_-removebg-preview (1).png" alt="notifications icon">
+    </div>
+</a>
+<a href="">
+    <div id="account-icon">
+      <img class="account" src="Screenshot__42_-removebg-preview.png" alt="account picture">
+    </div>
+</a>
+      </section>
+  </header>
+  <main>
+    <section id="main-body">
+      <section class="thumbnails-suggestions">
+        <div id="menu-buttons">
+          <img class="home-icon" src="WhatsApp_Image_2023-12-27_at_4.06.41_PM-removebg-preview.png" alt="home icon">
+         <button class="home">Home</button>
+        </div>
+
+        <section id="shorts-section">
+           <div id="shorts-button">
+        
+          <img id="shorts-picture" src="003821ba-2eec-47fe-8cb0-1ad14a88d745-removebg-preview.png" alt="shorts-icon">
+    
+          </div>
+           <div class="button-container"><button class="button">Shorts</button>
+          </div>
+        </section>
+
+        <section id="subscrption-section">
+          <div class="subscription-picture">
+            <img class="subscription" src="0733e660-14fd-4ad8-8df9-86c587a1db85-removebg-preview.png" alt="subscription icon">
+          </div>
+             <div class="button-container"><button class="button">   Subscriptions</button>
+          </div>
+        </section>
+        
+        <section id="your-channel-section">
+          <div class="your-channel-picture">
+            <img class="your-channel" src="bc018564-f991-452c-a7b9-69bf85bf26ab-removebg-preview.png" alt="icon">
+          </div>
+               <div class="button-container"><button class="channel-button">Your Channel</button>
+          </div>
+        </section>
+        <section id="buttons-and-images-section">
+          <div class="icon">
+            <img class="history" src="4c3bf1f5-bc1d-4ad5-9415-ffbfabc93804-removebg-preview.png" alt="icon">
+          </div>
+               <div class="button-container"><button class="button">History</button>
+          </div>
+        </section>
+           <section id="buttons-and-images-section">
+          <div class="icon">
+            <img class="your-videos" src="62bbc757-2cfd-4107-8dcd-a62113fb8b55-removebg-preview.png" alt="icon">
+          </div>
+               <div class="button-container"><button class="button">Your Videos</button>
+          </div>
+        </section>
+
+               <section id="buttons-and-images-section">
+          <div class="icon">
+            <img class="watch-later" src="ad9e45e1-2336-4e35-b8d5-1e783726867a-removebg-preview.png" alt="icon">
+          </div>
+               <div class="button-container"><button class="button">Watch Later</button>
+          </div>
+        </section>
+
+        <section id="buttons-and-images-section">
+          <div class="icon">
+            <img class="your-clips" src="Screenshot__46_-removebg-preview (1).png" alt="icon">
+          </div>
+               <div class="button-container"><button class="button">Your Clips</button>
+          </div>
+        </section>
+           <section id="show-more">
+          <div class="icon">
+            <img class="show-more" src="WhatsApp_Image_2023-12-27_at_5.29.46_PM-removebg-preview.png" alt="icon">
+          </div>
+               <div class="button-container"><button class="button">Show More</button>
+          </div>
+        </section>
+
+           <section id="subscriptions-below">
+          <div class="icon">
+            <img class="subscription-below-icon" src="WhatsApp_Image_2023-12-27_at_5.29.46_PM-removebg-preview.png" alt="icon">
+          </div>
+               <div class="button-container"><button class="button"><b>Subscriptions</b></button>
+          </div>
+        </section>
+               <section id="subscriptions-below">
+          <div class="icon">
+            <img class="subscription-below-icon" src="WhatsApp_Image_2023-12-27_at_5.29.46_PM-removebg-preview.png" alt="icon">
+          </div>
+               <div class="button-container"><button class="button"><b>Explore</b></button>
+          </div>
+        </section>
+                       <section id="subscriptions-below">
+          <div class="icon">
+            <img class="subscription-below-icon" src="WhatsApp_Image_2023-12-27_at_5.29.46_PM-removebg-preview.png" alt="icon">
+          </div>
+               <div class="button-container"><button class="button"><b>More From Youtube</b></button>
+          </div>
+        </section>
+     
+      </section>
+
+      <section id="videos-and-suggestions">
+        <div class="suggestions">
+          <button class="suggesting-all-button"><b>All</b></button>
+          <button class="suggesting-button"><b>Music</b></button>
+          <button class="suggesting-button"><b>Games</b></button>
+         <button class="suggesting-button"><b>Anime</b></button>
+         <button class="suggesting-button"><b>Poet</b></button>
+         <button class="suggesting-button"><b>bats</b></button>
+         <button class="suggesting-button"><b>AMV</b></button>
+         <button class="suggesting-button"><b>GDCS</b></button>
+         <button class="suggesting-button"><b>Mix</b></button>
+          <button class="suggesting-button"><b>Base</b></button>
+           <button class="suggesting-button"><b>PUBG</b></button>
+            <button class="suggesting-button"><b>COD</b></button>
+             <button class="suggesting-button"><b>KSI</b></button>
+              <button class="suggesting-button"><b>Vines</b></button>
+               <button class="suggesting-button"><b>FUNNY</b></button>
+                <button class="suggesting-button"><b>##</b></button>
+        </div>
+        <section class="thumbnail-first">
+          <img class="thumbnail" src="thumbnail.1.webp" alt="thumbnail picture">
+            <img class="thumbnail" src="thumbnail.2.webp" alt="thumbnail picture">
+            <img class="thumbnail" src="thumbnail.3.webp" alt="thumbnail picture">
+        </section>
+        <section class="thumbnail-second">
+          <div class="dp-name">
+          <img class="channel-dp" src="channel 1.jpg" alt="Youtube-Dp">
+          <p class="name-of-thumbnail"><b>
+            Naam E Ahmed|Ramzan Special
+
+          </b></p>
+          <img class="channel-dp2" src="channel 2.jpg" alt="Youtube-Dp">
+           <p class="name-of-thumbnail"><b>
+            HTML & CSS Full Course-Beginner to Pro
+          </b></p>
+             <img class="channel-dp3" src="channel 3.jpg" alt="Youtube-Dp">
+           <p class="name-of-thumbnail"><b>
+         Tilawat Quran
+          </b></p>
+          </div>
+          <div class="channel-name">
+            <p class="ch-name">
+              Danish & Dawar
+               <br>
+            9.7M_Views._4_Years_Ago
+            </p>
+               <p class="ch-name2">
+              SuperSimpleDev
+               <br>
+            181M_Views._1_Year_Ago
+            </p>
+                 <p class="ch-name3">
+              Islamic Videos
+               <br>
+            20M_Views.2_Years_ago
+            </p>
+          </div>
+        
+        </section>
+                <section class="thumbnail-first">
+          <img class="thumbnail" src="thumbnail.4.webp" alt="thumbnail picture">
+            <img class="thumbnail" src="thumbnail.5.webp" alt="thumbnail picture">
+            <img class="thumbnail" src="thumbnail.6.webp" alt="thumbnail picture">
+        </section>
+        <section class="thumbnail-second">
+          <div class="dp-name">
+          <img class="channel-dp" src="channel 4.jpg" alt="Youtube-Dp">
+          <p class="name-of-thumbnail"><b>
+            Turkey 4K-Scenic Relaxation
+
+          </b></p>
+          <img class="channel-dp2" src="channel 5.jpg" alt="Youtube-Dp">
+           <p class="name-of-thumbnail"><b>
+            Your Effort is Required-Nauman Ali Khan
+          </b></p>
+             <img class="channel-dp3" src="channel 6.jpg" alt="Youtube-Dp">
+           <p class="name-of-thumbnail"><b>
+         WILL YOU DANCE FOR PEPSI?
+          </b></p>
+          </div>
+          <div class="channel-name">
+            <p class="ch-name">
+              Scenic Relaxation
+               <br>
+            6.8M_Views._2_Years_Ago
+            </p>
+               <p class="ch-name5">
+              HOPE
+               <br>
+            5.6k_Views._1_Year_Ago
+            </p>
+                 <p class="ch-name3">
+              Ali E.
+               <br>
+            298k_Views.1_Year_ago
+            </p>
+          </div>
+        
+        </section>
+        
+                <section class="thumbnail-first">
+          <img class="thumbnail" src="thumbnail.7.webp" alt="thumbnail picture">
+            <img class="thumbnail" src="thumbnail.8.webp" alt="thumbnail picture">
+            <img class="thumbnail" src="thumbnail.9.webp" alt="thumbnail picture">
+        </section>
+        <section class="thumbnail-second">
+          <div class="dp-name">
+          <img class="channel-dp" src="channel 7.jpg" alt="Youtube-Dp">
+          <p class="name-of-thumbnail"><b>
+            Surah Maryam Sharif
+
+          </b></p>
+          <img class="channel-dp2" src="channel 8.jpg" alt="Youtube-Dp">
+           <p class="name-of-thumbnail"><b>
+            The Man Who Revolutionized Maths With Cs
+          </b></p>
+             <img class="channel-dp3" src="channel 9.jpg" alt="Youtube-Dp">
+           <p class="name-of-thumbnail"><b>
+         Top 5 Js Questions
+          </b></p>
+          </div>
+          <div class="channel-name">
+            <p class="ch-name">
+              MercifulServant
+               <br>
+            11M_Views._3_Years_Ago
+            </p>
+               <p class="ch-name7">
+              Quanta Magazine
+               <br>
+            2.6M_Views._1_Year_Ago
+            </p>
+                 <p class="ch-name9">
+              JSMaster
+               <br>
+            845k_Views.2_Months_ago
+            </p>
+          </div>
+        
+        </section>
+        
+        
+      </section>
+    </section>
+  </main>
+</body>
+</html>
